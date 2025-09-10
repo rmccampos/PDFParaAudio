@@ -4,7 +4,7 @@ import os
 
 def pdf_para_audio():
     #Caminho do PDF
-    pdf = 'C:/Users/RAFAEL-PC/Desktop/Python GUI/AudioBookProj/PDF_Audio/PDFParaAudio/PDF/O ladrão de raios - Ricky Riordan.pdf'
+    pdf = 'PDF/O ladrão de raios - Ricky Riordan.pdf'
     pasta_saida = 'audiobook_capitulos_gtts'
     os.makedirs(pasta_saida, exist_ok=True)
 
